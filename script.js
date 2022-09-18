@@ -159,3 +159,65 @@
 // styles.push('Rock-n-Roll')
 // styles.splice(styles.indexOf('Blues'), 1, 'Classic');
 //     console.log(styles.shift());
+
+
+
+
+
+//  --------------- HOMEWORK ---------------
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+
+//   // Change code below this line
+// for (let i = min; i <= max ; i+=1) {
+//     numbers.push(i);
+//     }
+//     console.log(numbers);
+//   // Change code above this line
+//   return numbers;
+// }
+// createArrayOfNumbers(5, 20);
+
+//           -----------------------------
+
+// function filterArray(numbers, value) {
+//    // Change code below this line
+// const newArray = [];
+//   for (let element of numbers) {
+//     if (element > value) {
+//       newArray.push(element);
+      
+//     }
+//   }
+//   console.log(newArray);
+//   return newArray;
+//   // Change code above this line
+// }
+// filterArray([1, 2, 3, 4, 5], 3)
+
+//           -----------------------------
+// Напиши функцию getCommonElements(array1, array2)
+// которая получает два массива произвольной длины
+//  в параметры array1 и array2, и возвращает новый массив,
+// состоящий из тех элементов, которые присутствуют в обоих исходных массивах.
+
+function getCommonElements(array1, array2) {
+  // Change code below this line
+  let result = [];
+  let toConcat = array1.concat(array2);
+// for (let i = 0; i < array1.length ; i++) {
+//   if (array1[i].includes(array2[i])) {
+//     result.push[i];
+//   }
+// }
+  for (let element of toConcat) {
+    if (to) {
+      result.push(element)
+    }
+    }
+
+return result;
+ // Change code above this line
+}
+getCommonElements([1, 2, 3], [2, 4])
