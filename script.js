@@ -15,21 +15,21 @@
 //     switch (num) {
 //         case 1:
 //             result = 'Зима';
-            
+
 //             break;
 //     case 2:
 //             result = 'Весна';
-            
+
 //             break;
 //     case 3:
 //             result = 'Лето';
-            
+
 //             break;
 //     case 4:
 //             result = 'Осень';
-            
+
 //             break;
-    
+
 //         default:
 //             result = `Такой поры года нет`
 //             break;
@@ -50,18 +50,16 @@
 
 // const question = prompt("Какое официальное название JavaScript?");
 
-
 // function langsQuestion() {
 //     const question = prompt('Какое официальное название JavaScript?')
 //     if (question === 'ECMAScript') {
 //         alert('Верно!')
-        
+
 //     } else {
 //         alert("Не знаете? ECMAScript!")
 //     }
 // }
 // langsQuestion()
-
 
 //   --------------------------------
 
@@ -80,19 +78,18 @@
 //то вывести строку "Здравствуйте!"
 //иначе выводить строку "Неверный пароль!"
 
-
 // function authoriation() {
 //     const login = prompt('Enter the login');
 //     if (login === 'Admin') {
 
 //         const password = 'mypass';
 //         const input = prompt('Enter your password!');
-            
+
 //         if (input === password) {
 //             alert('Welcome!');
-                
+
 //         } else alert('Incorrect password!');
-        
+
 //     } else if (login === null) {
 //         alert('Canceled!');
 //     }
@@ -103,7 +100,6 @@
 // }
 
 // authoriation();
-
 
 //  --------------------------------
 
@@ -117,15 +113,12 @@
 //Делать проверку,что пользователь ввел именно число,
 //а не произвольный набор символов, не нужно.
 
-
-
 //----------------- ARRAY -------------------
 
 //Напишите функцию caclculateAverage()
 //которая принимает произвольное количество
 //аргументов и возвращает их среднее значение.
 //Добавить проверку, что аргументы это числа.
-
 
 //         function caclculateAverage(...arg) {
 //             let sum = 0;
@@ -137,13 +130,10 @@
 //                 sum += element;
 //                 count += 1;
 
-
 //             }
 //             return sum / count;
 //         }
 // console.log(caclculateAverage(1, 2, 125));
-
-
 
 //         ------------------------------------
 
@@ -153,16 +143,11 @@
 //Удалите первый элемент массива и выведите его в консоль.
 //Вставьте «Рэп» и «Регги» в начало массива.
 
-
 // const styles = ['Jass', 'Blues'];
 
 // styles.push('Rock-n-Roll')
 // styles.splice(styles.indexOf('Blues'), 1, 'Classic');
 //     console.log(styles.shift());
-
-
-
-
 
 //  --------------- HOMEWORK ---------------
 
@@ -187,7 +172,7 @@
 //   for (let element of numbers) {
 //     if (element > value) {
 //       newArray.push(element);
-      
+
 //     }
 //   }
 //   console.log(newArray);
@@ -202,22 +187,36 @@
 //  в параметры array1 и array2, и возвращает новый массив,
 // состоящий из тех элементов, которые присутствуют в обоих исходных массивах.
 
-function getCommonElements(array1, array2) {
-  // Change code below this line
-  let result = [];
-  let toConcat = array1.concat(array2);
-// for (let i = 0; i < array1.length ; i++) {
-//   if (array1[i].includes(array2[i])) {
-//     result.push[i];
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//   const result = [];
+//   for (let i = 0; i < array1.length ; i++) {
+//     if (array2.includes(array1[i])) {
+//       result.push(array1[i]);
+//     }
 //   }
+//     console.log(result);
+//   return result;
+//   // Change code above this line
 // }
-  for (let element of toConcat) {
-    if (to) {
-      result.push(element)
-    }
-    }
+// getCommonElements([1, 2, 3], [2, 4]);
 
-return result;
- // Change code above this line
-}
-getCommonElements([1, 2, 3], [2, 4])
+//           -----------------------------
+
+// function includes(array, value) {
+//   // Change code below this line
+//   let result = false;
+//   for (let element of array) {
+//     if (element === value) {
+//      return result = true;
+//     }
+//   }
+// return console.log(result);
+//   // Change code above this line
+// }
+
+// includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Uranus');
+
+const example = null;
+
+console.log(typeof example);
