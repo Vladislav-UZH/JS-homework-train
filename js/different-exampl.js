@@ -32,7 +32,6 @@
 // };
 //  totalPriceBooks()
 
-
 // // console.log(foo(10,50))
 //
 // --------------------------------------------------------------------------------------------
@@ -82,12 +81,10 @@
 // }
 // console.log(caclculateAverage(5,5,5, false));
 
-
-
 // --------------------------------------------------------------------------------------------
 // const caclculateAverage = (...nums) => {
 //       nums.filter(num => typeof num === 'number').reduce((acc, num,midx,array) => acc + num / array.length, 0) ;
-     
+
 // }
 // console.log(caclculateAverage(5,5,5, false));
 // --------------------------------------------------------------------------------------------
@@ -116,7 +113,7 @@
 //mult() перемножает сохраненные значения и возвращает результат
 // ========================================================================================
 // const calculator = {
-    
+
 //     read(a, b) {
 //         this.firstValue = a;
 //         this.secondValue = b;
@@ -141,16 +138,15 @@
 // const arr = [];
 // for (let i = 0; i <= 50; i+=1) {
 //     arr.push(i)
-    
+
 // }
 
 // const inputNum = Number(prompt('Enter your number!'));
 
-
 // if (typeof inputNum === 'number') {
 //         if ( arr.includes(inputNum)) {
 //             alert(`Yes, your entered number (${inputNum}) is in collection!`);
-            
+
 //         } else {
 //             alert(`Sorry, I can not find the number`)
 //         };
@@ -158,11 +154,7 @@
 //     alert(`${inputNum} is not correct! Enter only number!`)
 // };
 
-
 // console.table(arr)
-
-
-
 
 // --------------------------------------------------------------------------------------------
 /* Є масив із числами. Створіть із нього новий масив,
@@ -174,17 +166,14 @@
 // const isPositive = num => num > 0 ? true : false;
 
 // for (let i = 0; i < arr.length; i += 1) {
-    
+
 //     // if (isPositive(arr[i])) {
 //     //      positiveNums.push(arr[i])
 //     // }
 //     isPositive(arr[i]) ? positiveNums.push(arr[i]) : console.log('Error');
 
-    
 // }
 // console.log(positiveNums)
-
-
 
 // const isPositive = arr.filter(num => num > 0);
 // console.log(isPositive)
@@ -312,7 +301,6 @@
 // };
 // console.log("🚀 ~ file: different-exampl.js ~ line 315 ~ restAllValues(users)", restAllValues(users))
 
-
 // balance: [2811, 3821, 3793, 2278, 3951, 1498, 2764]
 // email: ['moorehensley@indexia.com', 'sharlenebush@tubesys.com', 'rossvazquez@xinware.com', 'elmahead@omatom.com', 'careybarr@nurali.com', 'blackburndotson@furnigeer.com', 'shereeanthony@kog.com']
 // eyeColor: ['blue', 'blue', 'green', 'green', 'blue', 'brown', 'brown']
@@ -331,7 +319,6 @@
 //строку "Привет <name>"
 //Реализуй проверку, что prompt не пустой
 
-
 // const letMeSeeYourName = (callback) => {
 //   const inputUser = prompt('Enter your name, please!');
 //   if (inputUser) {
@@ -346,8 +333,7 @@
 // letMeSeeYourName(greet);
 
 // --------------------------------------------------------------------------------------------
-//    ЗАМЫКАНИЯ    ЗАМИКАННЯ    CLOSURES    
-
+//    ЗАМЫКАНИЯ    ЗАМИКАННЯ    CLOSURES
 
 //Выполни рефакторинг makeDish так, чтобы не нужно было
 //каждый раз передавать имя шефа.
@@ -362,7 +348,7 @@
 //   return function makeDish(dish) {
 //      console.log(`${shefName} is cooking ${dish}`);
 //   }
-  
+
 // }
 // const poly = makeShef('Poly')
 // poly('Cake')
@@ -371,24 +357,19 @@
 
 // --------------------------------------------------------------------------------------------
 
-
-
-// --------------------------------------------------------------------------------------------
-
-
-
-
-// --------------------------------------------------------------------------------------------
+document.addEventListener(
+  "click",
+  _.debounce(() => console.log("clicked"), 1000)
+);
 
 
 
 // --------------------------------------------------------------------------------------------
 
-
-
+// --------------------------------------------------------------------------------------------
 
 // --------------------------------------------------------------------------------------------
 
-
+// --------------------------------------------------------------------------------------------
 
 // --------------------------------------------------------------------------------------------
